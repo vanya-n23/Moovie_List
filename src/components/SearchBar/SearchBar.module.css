@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.searchForm {
+    position: relative;
+    margin: auto;
+}
+
+.searchInput {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 260px;
+    outline: none;
+}
+
+.searchInput:focus {
+    border-color: goldenrod;
+}
+
+.searchButton {
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    color: goldenrod;
+}
+
+.searchInput:focus+.searchButton {
+    border-color: goldenrod;
+}

@@ -1,0 +1,10 @@
+.loading {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.toasterContainer {
+    border: 2px solid orangered;
+    padding: 10px;
+    border-radius: 5px;
+}

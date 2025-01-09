@@ -1,0 +1,15 @@
+.blok {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto 10px;
+    gap: 10px;
+    width: 280px;
+}
+
+.message {
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

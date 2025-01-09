@@ -1,0 +1,11 @@
+.loaderContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.loader {
+    height: 80px;
+    width: 80px;
+    border-radius: 9px;
+}

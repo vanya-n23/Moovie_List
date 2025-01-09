@@ -1,0 +1,19 @@
+.loadMoreBtn {
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: lightgrey;
+    border: none;
+    display: block;
+}
+
+.loadMoreBtn:hover {
+    color: white;
+    transition: color, background-color 550ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: goldenrod;
+}
